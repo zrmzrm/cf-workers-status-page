@@ -40,6 +40,7 @@ monitors:
   
   - id: zero-blog
     name: Zero の 日常
+    description: '凉风乍起，一叶知秋。'
     url: 'https://mikuac.com/'
     method: GET
     expectStatus: 200
