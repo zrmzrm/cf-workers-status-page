@@ -24,12 +24,6 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: zrmblog-img
-    name: ZRM-Img
-    url: 'https://img.zrm.moe/'
-    method: GET
-    expectStatus: 200
-
   - id: zrm-blog
     name: ZRM的Blog
     url: 'https://zrmblog.com/'
