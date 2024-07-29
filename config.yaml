@@ -30,6 +30,12 @@ monitors:
     method: GET
     expectStatus: 200
   
+  - id: CDN
+    name: 测试页面
+    url: 'https://info.zrm.moe/'
+    method: GET
+    expectStatus: 200
+  
   - id: zero-blog
     name: Zero の 日常
     description: '凉风乍起，一叶知秋。'
