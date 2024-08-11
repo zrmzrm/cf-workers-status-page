@@ -23,6 +23,13 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+  
+  - id: CDN
+    name: 测试页面
+    url: 'https://info.zrm.moe/'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
 
   - id: zrm-blog
     name: ZRM的Blog
@@ -30,15 +37,9 @@ monitors:
     method: GET
     expectStatus: 200
   
-  - id: CDN
-    name: 测试页面
-    url: 'https://info.zrm.moe/'
-    method: GET
-    expectStatus: 200
-  
-  - id: zero-blog
+  - id: mikuac
     name: Zero の 日常
     description: '凉风乍起，一叶知秋。'
-    url: 'https://mikuac.com/'
+    url: 'https://www.mikuac.com/'
     method: GET
     expectStatus: 200
