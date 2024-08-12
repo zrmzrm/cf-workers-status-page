@@ -40,6 +40,6 @@ monitors:
   - id: mikuac
     name: Zero の 日常
     description: '凉风乍起，一叶知秋。'
-    url: 'https://www.mikuac.com/'
+    url: 'https://mikuac.com/'
     method: GET
     expectStatus: 200
