@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
   
   - id: Akamai
-    name: 测试页面
+    name: Akamai
     url: 'https://cdn.akamai.steamstatic.com/steam/apps/1063730/extras/NW_Sword_Sorcery_2.gif'
     method: GET
     expectStatus: 200
