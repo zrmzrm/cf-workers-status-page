@@ -24,9 +24,9 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
   
-  - id: CDN
+  - id: Akamai
     name: 测试页面
-    url: 'https://info.zrm.moe/'
+    url: 'https://cdn.akamai.steamstatic.com/steam/apps/1063730/extras/NW_Sword_Sorcery_2.gif'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
